@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="vyper",
+    name="vyper-config",
     version="1.0.0",
     description="Python configuration with (more) fangs",
     url="http://github.com/alexferl/vyper",
