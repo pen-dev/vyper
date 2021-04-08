@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="vyper-config",
+    name="vyper",
     version="1.0.0",
     description="Python configuration with (more) fangs",
     url="http://github.com/alexferl/vyper",
@@ -16,7 +16,7 @@ setup(
         "PyYAML>=5.3.1",
         "watchdog>=0.10.0",
     ],
-    # setup_requires=["pytest-runner>=5.2"],
+    setup_requires=["pytest-runner>=5.2"],
     tests_require=["pytest>=6.1.2"],
     platforms="any",
     classifiers=[
